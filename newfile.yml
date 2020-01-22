@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: Set the contents of a file
+    win_copy:
+      dest: C:\Users\Administrator\Documents\MyFile.txt
+      content: abc123
